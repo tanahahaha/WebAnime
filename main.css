@@ -1,0 +1,683 @@
+/*----- WEB----------------------------------------------------------- */
+.web__content{
+    position: relative;
+}
+/*--- Header ---------------------------------------------------------*/
+.heading{
+    /* background-color: rgb(41, 39, 39); */
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 57px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    
+}
+.header__logo{
+    background-image: url('./assets/img/Anime-logo-square.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color: blue; */
+    height: 57px;
+
+}
+.header__search{
+    /* background-color: green; */
+    height: 57px;
+}
+.header__login{
+    
+    /* background-color: yellow; */
+    height: 57px;
+}
+.search__input{
+    padding: 7px 10px 7px;
+    margin: 11px 10px;
+    height: 50%;
+    width: 90%;
+    border: none;
+    border-radius: 60px;
+    /* border-color: pink; */
+}
+.search__icon{
+    
+ 
+    /* border-radius: 10px; */
+}
+.search__btn{
+    
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+.header__login{
+    
+    justify-content: center;
+}
+.header__login a{
+    display: flex;
+    line-height: 50px;
+    text-decoration: none;
+    /* display: none; */
+}
+.login__icon{
+    margin-top: 16px;
+}
+.login__item{
+
+}
+
+
+/* Navication */
+.nav{
+    margin-top: 57px;
+    /* position: fixed; */
+    background-color: rgb(41, 39, 39);
+}
+.nav__list{
+    background-color: rgb(41, 39, 39);
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+    /* justify-content: space-around; */
+}
+.nav__list li:hover i,
+.nav__list > li:hover > a{
+    color: orange;
+    cursor: pointer;
+}
+.nav__list li{
+    list-style-type: none;
+    
+}
+.nav__list li:hover .subnav--type1,
+.nav__list li:hover .subnav--type2,
+.nav__list li:hover .subnav--type3,
+.nav__list li:hover .subnav--year,
+.nav__list li:hover .subnav--status,
+.nav__list li:hover .subnav--view
+{
+    background-color: rgb(95, 99, 88, 0.8);
+    /* color: orange; */
+    display: block;
+    z-index: 2;
+}
+.nav_item{  
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    padding: 10px 30px 10px 14px;
+    /*  */
+}
+.nav_item a{
+    color:#fff;
+    text-decoration: none;
+}
+.nav__icon{
+    color: #fff;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+.subnav--type1{
+    display: none;
+    width: 120px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+.subnav--type2{
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    top: 100%;
+    margin-left: 120px;
+    width: 120px;
+}
+.subnav--type3{
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    top: 100%;
+    margin-left: 240px;
+    width: 120px;
+}
+.subnav__item{
+    /* flex: 1; */
+    /* margin-right: 20px; */
+    padding: 8px 12px;
+}
+.subnav--year{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    width: 120px;
+}
+.subnav--status{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    width: 160px;
+}
+.subnav--view{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    width: 100px;
+}
+
+
+/* ---Slider-------------------------------------------------------- */
+.slider{
+    /* margin-top: 16px; */
+    background-image: url('./assets/img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    /* opacity: 0.7; */
+
+}
+.slider__content{
+    margin-top: 20px;
+    /* width: 400px; */
+    /* margin: auto; */
+    width: 85%;
+    margin: auto;
+    max-height: 420px;
+    justify-content: center;
+    /* display: inline-block; */
+    display: flex;
+    position: relative;
+}
+/* .anime_icon{
+    color: orange;
+    font-weight: 100 !important;
+}
+
+.anime_icon:hover{
+    font-weight: 900 !important ;
+} */
+.anime__item{
+    flex:1;
+    margin: 10px 20px;
+    position: relative;
+}
+.anime__item:hover .anime__pic{
+    opacity: 0.7;
+}
+.anime__pic{
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    /* opacity: 0.7; */
+    
+}
+.anime__ep{
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    color: rgb(2, 2, 2);
+    background-color:rgb(223, 219, 35);
+    padding: 0 8px;
+    border-radius: 20px;
+}
+.anime__fov{
+    position: absolute;
+    right: 12px;
+    top: 9px;
+    color: orange;
+}
+.anime_icon{
+    font-size: 20px;
+}
+.anime__name{
+    position: absolute;
+    bottom: -8%;
+    /* margin: 0 12px; */
+    left: 0;
+    right: 0;
+    list-style-type: none;
+    /* font-size: 10px; */
+    text-align: center;
+    background-color: rgb(231, 238, 192);
+    border-radius: 5px;
+}
+.anime__name a{
+    /* list-style-type: none; */
+    /* position: absolute; */
+    /* left: calc(100%/3); */  
+    /* right: 30%; */
+    /* bottom: 25%; */
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+}
+.anime__rate{
+    color: #fff;
+    position: absolute;
+    left: 12px;
+    bottom:  6px;
+    background-color:rgb(5, 5, 5);
+    padding: 0 8px;
+    border-radius: 20px;
+}
+.anime__view{
+    color:#fff;
+    position: absolute;
+    right: 12px;
+    bottom:  6px;
+    background-color: rgb(236, 56, 56);
+    padding: 0 8px;
+    border-radius: 20px;
+}
+.prev, 
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 49%;
+    width: auto;
+    /* padding: 16px 16px 16px 0; */
+    margin-top: -22px;
+    color: white!important;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+  }
+.prev{
+    left: 0;
+    border-radius: 3px 0 0 3px;
+    padding: 10px 10px 10px 0;
+}
+
+.next {
+    padding: 10px 0 10px 10px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slider__dot{
+    margin-top: 26px;
+    text-align: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active__dot {
+    background-color: #717171;
+}
+
+/*--- Main-------------------------------------------------------------- */
+.main{
+    background-color: rgb(75, 71, 71);
+    position: relative;
+    /* height: 1000px; */
+    /* background-color: rgb(122, 120, 117); */
+}
+
+.anime__item--m{
+    min-height: 186px!important;;
+    /* flex:1; */
+    margin-top: 12px;
+    /* position: relative !important; */
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
+}
+.anime__item--m:hover .anime__pic--m{
+    opacity: 0.7;
+    /* cursor: pointer; */
+}
+.anime__pic--m{
+    opacity: 0.9;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    /* opacity: 0.7; */
+    
+}
+.anime__ep--m{
+    
+    position: absolute;
+    left: 20px;
+    top: 6px;
+    color: rgb(2, 2, 2);
+    background-color:rgb(223, 219, 35);
+    padding: 0 8px;
+    border-radius: 20px;
+}
+.anime__fov--m{
+    position: absolute;
+    right: 20px;
+    top: 9px;
+    color: orange;
+}
+.anime_icon--m{
+    font-size: 20px;
+}
+.anime__name--m{
+    position: absolute;
+    bottom: 0;
+    /* margin: 0 12px; */
+    left: 15px;
+    right: 15px;
+    list-style-type: none;
+    /* font-size: 10px; */
+    text-align: center;
+    background-color: rgb(231, 238, 192);
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.anime__name--m a{
+    /* list-style-type: none; */
+    /* position: absolute; */
+    /* left: calc(100%/3); */  
+    /* right: 30%; */
+    /* bottom: 25%; */
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    /* font-size: 20px; */
+}
+.anime__rate--m{
+    color: #fff;
+    position: absolute;
+    left: 20px;
+    bottom:  24px;
+    background-color:rgb(5, 5, 5);
+    padding: 0 8px;
+    border-radius: 20px;
+}
+.anime__view--m{
+    color:#fff;
+    position: absolute;
+    right: 20px;
+    bottom:  24px;
+    background-color: rgb(12, 11, 11);
+    padding: 0 8px;
+    border-radius: 20px;
+}
+
+.category__name{
+    /* padding: 2px 5px; */
+    border-radius: 3px;
+    color: #fff;
+    background-color: crimson;
+    margin: 15px 15px 0px;
+    text-align: center;
+}
+.category__list{
+    margin: 15px 0 0px;
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+}
+.category__list li:hover{
+    background-color: coral;
+    cursor: pointer;
+    /* opacity: 0.7; */
+}
+.category__item{
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 15px;
+    color: #fff;
+    background-color: rgb(13, 14, 14);
+}
+.active--cate{
+    background-color: rgb(245, 90, 33);
+}
+.category__cont{
+    display: none !important;
+}
+.active--cont{
+    /* display: none !important; */
+    display: flex !important;
+}
+.category__more{
+    position: absolute;
+    top: 17px;
+    right: 0;
+    margin-right: 15px;
+    color: #fff;
+}
+.category__more2:hover,
+.category__more:hover{
+    color: rgb(245, 90, 33);
+    cursor: pointer;
+}
+.category__more2{
+    color: #fff;
+    position: absolute;
+    bottom: 394px;
+    right: 0;
+    margin-right: 15px;
+}
+
+/*  */
+.category__name2{
+    /* padding: 2px 5px; */
+    border-radius: 3px;
+    color: #fff;
+    background-color: crimson;
+    margin: 15px 15px 0px;
+    text-align: center;
+}
+.category__list2{
+    margin: 15px 0 0px;
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+}
+.category__list2 li:hover{
+    background-color: coral;
+    cursor: pointer;
+    /* opacity: 0.7; */
+}
+.category__item2{
+    
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 15px;
+    color: #fff;
+    background-color: rgb(13, 14, 14);
+}
+.active--cate{
+    background-color: rgb(245, 90, 33);
+}
+/* .main--right{
+    position: sticky;
+    top: 57px;
+    z-index: 2;
+} */
+
+.view__list{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+.view__item{
+    position: relative;
+}
+.view__anime{
+    margin-top: 12px;
+    min-height: 136px;
+    position: relative;
+}
+.view__anime--name{
+    position: absolute;
+    left: 5px;
+    top: 0;
+    color: #fff;
+}
+.view__anime--ep{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #fff;
+}
+.view__anime--view{
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    color: #fff;
+}
+.active--viewlist{
+    display: block;
+}
+/* Anime extra------------------------------------------------------------ */
+.extra{
+    text-align: center;
+   
+    position: relative;
+    /* background-color: aquamarine; */
+}
+.aniex2,
+.aniex3,
+.aniex{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+    /* overflow-y: hidden; */
+}
+.aniex__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    width: 3300px;
+    height: 199px;
+    /* overflow: scroll; */
+    justify-content: center;
+    /* scroll-behavior: smooth !important; */
+    /* transform: translateX();
+    transition: transform linear 1s; */
+}
+.aniex__item{
+    text-align: center;
+    /* width: 299px !important; */
+    height: 160px;
+    margin: 10px 15px;
+    margin-left: 20px;
+    /* transform: translateX(-1100px);
+    transition: transform linear 1s; */
+  
+}
+.aniex__img{
+    display: block;
+    width: 235px !important;
+    height: 100%;
+    
+}
+.aniex__name{
+
+}
+.aniex__pre3,
+.aniex__pre2,
+.aniex__pre{
+    position: absolute;
+    top: 112px;
+    left: 0;
+    color: red;
+    z-index: 3;
+}
+.aniex__next3 a,    
+.aniex__pre3 a,
+.aniex__next2 a,    
+.aniex__pre2 a,
+.aniex__next a,
+.aniex__pre a{
+    font-size: 26px;
+}
+.aniex__next3,
+.aniex__next2,
+.aniex__next{
+    position: absolute;
+    top: 112px;
+    right: 0;
+    color: red;
+    z-index: 3;
+}
+.aniex__pre3:hover a,
+.aniex__next3:hover a,
+.aniex__pre2:hover a,
+.aniex__next2:hover a,
+.aniex__pre:hover a,
+.aniex__next:hover a{
+    cursor: pointer;
+    background-color: blue;
+
+}
+/* Footer---------------------------------------------------------------- */
+.footer{
+    background-color: rgb(56, 53, 53);
+}
+.footer__name{
+    color: #fff;
+    /* margin-left: 16px; */
+}
+.footer__contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__list{
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+.contact__item{
+    padding-right: 16px;
+
+    /* margin-left: 16px; */
+}
+.footer__more{
+    color: #fff;
+}
+.cpr{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+/*--- Responsive----------------------------------------------------------------- ------*/
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .login__item,
+    .search__btn{
+        display: none;
+    }
+    .nav_item{
+        padding: 10px 20px 10px 14px;
+    }
+}

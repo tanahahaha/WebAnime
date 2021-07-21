@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <!-- <link rel="stylesheet" href="./reset.css"> -->
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body>
+    <div class="web">
+        <div class="web__content">
+            <header class="header">
+                <div class="container">
+                    <div class="row heading">
+                        <div class="col-lg-2 col-md-2">
+                            <div class="header__logo text-align-center"></div> 
+                        </div>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="header__search">
+                                <div>
+                                    <input class="search__input" type="text" placeholder="      Nhập tên anime cần tìm">
+                                <button type="submit" class="search__btn">
+                                    <i class="search__icon fas fa-search"></i>
+                                </button>
+                                </div>
+                                
+    
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <div class="header__login">
+                                <a href="">
+                                    <i class="login__icon fas fa-user"></i>
+                                    <p class="login__item" >Đăng nhập</p>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    
+            <nav class="nav">
+                <div class="container">
+                    <ul class="nav__list">
+                        <li class="nav_item" >
+                            <a href="" >Trang chủ</a>
+                        </li>
+                        <li class="nav_item" >
+                            <a href="" >Thể loại</a>
+                            <i class="nav__icon fas fa-chevron-down"></i>
+                            <ul class="subnav--type1">
+                                <li class="subnav__item"><a href="">Hành động</a></li>
+                                <li class="subnav__item"><a href="">Đời thường</a></li>
+                                <li class="subnav__item"><a href="">Drama</a></li>
+                                <li class="subnav__item"><a href="">Phiêu Lưu</a></li>
+                                <li class="subnav__item"><a href="">Kinh Dị</a></li>
+                                <li class="subnav__item"><a href="">Hài hước</a></li>
+                            </ul>
+                            <ul class="subnav--type2">
+                                <li class="subnav__item"><a href="">Hành động</a></li>
+                                <li class="subnav__item"><a href="">Đời thường</a></li>
+                                <li class="subnav__item"><a href="">Drama</a></li>
+                                <li class="subnav__item"><a href="">Phiêu Lưu</a></li>
+                                <li class="subnav__item"><a href="">Kinh Dị</a></li>
+                                <li class="subnav__item"><a href="">Hài hước</a></li>
+                            </ul>
+                            <ul class="subnav--type3">
+                                <li class="subnav__item"><a href="">Hành động</a></li>
+                                <li class="subnav__item"><a href="">Đời thường</a></li>
+                                <li class="subnav__item"><a href="">Drama</a></li>
+                                <li class="subnav__item"><a href="">Phiêu Lưu</a></li>
+                                <li class="subnav__item"><a href="">Kinh Dị</a></li>
+                                <li class="subnav__item"><a href="">Hài hước</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item" >
+                            <a href="" >Xem nhiều</a>
+                            <i class="nav__icon fas fa-chevron-down"></i>
+                            <ul class="subnav--view">
+                                <li class="subnav__item"><a href="">Ngày</a></li>
+                                <li class="subnav__item"><a href="">Tuần</a></li>
+                                <li class="subnav__item"><a href="">Tháng</a></li>
+                                <li class="subnav__item"><a href="">Mùa</a></li>
+                                <li class="subnav__item"><a href="">Năm nay</a></li>
+                                <li class="subnav__item"><a href="">Tất cả</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item" >
+                            <a href="" >Top Rate</a>
+                        </li>
+                        <li class="nav_item" >
+                            <a href="" >Trạng thái</a>
+                            <i class="nav__icon fas fa-chevron-down"></i>
+                            <ul class="subnav--status">
+                                <li class="subnav__item"><a href="">Đã hoàn thành</a></li>
+                                <li class="subnav__item"><a href="">Đang phát hành</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav_item" >
+                            <a href="" >Năm </a>
+                            <i class="nav__icon fas fa-chevron-down"></i>
+                            <ul class="subnav--year">
+                                <li class="subnav__item"><a href="">2014</a></li>
+                                <li class="subnav__item"><a href="">2015</a></li>
+                                <li class="subnav__item"><a href="">2016</a></li>
+                                <li class="subnav__item"><a href="">2017</a></li>
+                                <li class="subnav__item"><a href="">2018</a></li>
+                                <li class="subnav__item"><a href="">2019</a></li>
+                                <li class="subnav__item"><a href="">2020</a></li>
+                                <li class="subnav__item"><a href="">2021</a></li>
+                            </ul>
+    
+                        </li>
+                    </ul>
+                  
+                </div>
+            </nav>
+    
+            <div class="slider">
+                <div class="slider__content">
+                            <div class="anime__item ">
+                                <img class="anime__pic" src="./assets/img/onepiece.jpg" alt="">
+                                <div class="anime__ep">980/?</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.9</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9789K</i></div>     
+                                <div class="anime__name"><a href="">One Piece</a></div>
+                            </div>
+            
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/aot.jpg" alt="">
+                                <div class="anime__ep">16/24</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.0</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 7895K</i></div>     
+                                <div class="anime__name"><a href="">Attack on Titan</a></div>
+                            </div>
+            
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/kny.jpg" alt="">
+                                <div class="anime__ep">20/25</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">8.9</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9350K</i></div>     
+                                <div class="anime__name"><a href="">Kimetsu no Yaiba</a></div>
+                            </div>
+            
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/tg.png" alt="">
+                                <div class="anime__ep">16/22</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.7</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9058K</i></div>     
+                                <div class="anime__name"><a href="">Tokyo Ghoul</a></div>
+                            </div>
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/sao.jpg" alt="">
+                                <div class="anime__ep">15/24</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.2</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9087K</i></div>     
+                                <div class="anime__name"><a href="">Sword art Online</a></div>
+                            </div>
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/ajin.jpg" alt="">
+                                <div class="anime__ep">15/24</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.2</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9087K</i></div>     
+                                <div class="anime__name"><a href="">Ajin</a></div>
+                            </div>
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/deathnote.jpg" alt="">
+                                <div class="anime__ep">15/24</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.2</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9087K</i></div>     
+                                <div class="anime__name"><a href="">Death Note</a></div>
+                            </div>
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/fate.jpg" alt="">
+                                <div class="anime__ep">15/24</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.2</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9087K</i></div>     
+                                <div class="anime__name"><a href="">Fate stay Night</a></div>
+                            </div>
+                            <div class="anime__item">
+                                <img class="anime__pic" src="./assets/img/kiseijul.jpg" alt="">
+                                <div class="anime__ep">15/24</div>   
+                                <div class="anime__fov"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                <div class="anime__rate">9.2</div>
+                                <div class="anime__view"><i class="fas fa-eye"> 9087K</i></div>     
+                                <div class="anime__name"><a href="">Ký sinh trùng</a></div>
+                            </div>
+    
+                            <a class="prev" >&#10094;</a>
+                            <a class="next" >&#10095;</a>   
+                            
+                </div>
+                    <div class="slider__dot">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                </div>
+    
+               
+            </div>
+
+            <div class="main">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-9 col-md-8">
+                            <div class="row">
+                                <div class="category__name">Anime mới cập nhật</div>
+                                <ul class="category__list">
+                                    <li class="category__item active--cate">Tất cả</li>
+                                    <li class="category__item">Mùa này</li>
+                                    <li class="category__item">Tuần này</li>
+                                    <li class="category__item">Hôm nay</li>
+                                </ul>
+                                <div class="category__more">Xem tất cả >></div>
+                            </div>
+                            <div class="row category__cont active--cont ">
+                                
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/aot.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                            </div>  
+                            <div class="row category__cont ">
+                                
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/02.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                            </div> 
+                            <div class="row category__cont ">
+                                
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/fate.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                            </div> 
+                            <div class="row category__cont ">
+                                
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/tg.png" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="row ">
+                                <div class="category__name2">Xem nhiều nhất</div>
+                                <ul class="category__list2">
+                                <li class="category__item2 active--cate">Ngày</li>
+                                <li class="category__item2">Tháng</li>
+                                <li class="category__item2">Mùa</li>
+                                <li class="category__item2">Năm</li>
+                                </ul>
+                            </div>
+                            <div class="view">
+                                <ul  class="view__list active--viewlist">
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/deathnote.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/deathnote.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/deathnote.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/deathnote.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/deathnote.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul  class="view__list ">
+                                    <li class="view__item ">
+                                        <div style="background: url('./assets/img/natsu.jpg') top center / cover no-repeat;"  class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/natsu.jpg') top center / cover no-repeat;"  class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/natsu.jpg') top center / cover no-repeat;"  class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/natsu.jpg') top center / cover no-repeat;"  class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/natsu.jpg') top center / cover no-repeat;"  class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="view__list ">
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="view__list ">
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/tg.png') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/tg.png') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/tg.png') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/tg.png') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/tg.png') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">91.231  lượt xem</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-9 col-md-8">
+                            <div class="row">
+                                <div class="category__name">Anime Live Action</div>
+                                <div class="category__more">Xem tất cả >></div>
+                            </div>
+                            <div class="row category__cont active--cont ">                      
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/kny.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+
+                            </div>
+                            <div style="justify-content: space-between;" class="row">
+                                <div class="category__name">Anime Trung Quốc</div>
+                                <div class="category__more2">Xem tất cả >></div>
+                            </div>
+                            <div class="row category__cont active--cont ">
+                                
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>  
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div>
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                                <div class="col-lg-2_4 col-md-4 anime__item--m">
+                                    <img class="anime__pic--m" src="./assets/img/ajin.jpg" alt="">
+                                    <div class="anime__ep--m">980/?</div>   
+                                    <div class="anime__fov--m"><i class="anime_icon fas fa-heart"></i> </div>                      
+                                    <div class="anime__rate--m">9.9</div>
+                                    <div class="anime__view--m"><i class="fas fa-eye"> 9m</i></div>     
+                                    <div class="anime__name--m"><a href="">One Piece</a></div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="row ">
+                                <div class="category__name2">Đánh giá cao</div>
+                            </div>
+                            <div class="view">
+                                <ul  class="view__list active--viewlist">
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">10.0</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">10.0</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">10.0</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">10.0</span>
+                                        </div>
+                                    </li>
+                                    <li class="view__item">
+                                        <div style="background: url('./assets/img/kiseijul.jpg') top center / cover no-repeat;" class="view__anime">
+                                            <span class="view__anime--name">Chén thánh chiến</span>
+                                            <span class="view__anime--ep">15/26</span>
+                                            <span class="view__anime--view">10.0</span>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  class="container extra">
+                <h3>Anime Ghibli studio</h3>
+                <div class="aniex">
+                    <ul class="aniex__list">
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/to.jpg" alt="">
+                            <span class="aniex__name">Hàng xóm tôi là Totoro</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/sa.jpg" alt="">
+                            <span class="aniex__name">Spirited Away - Vùng đất linh hồn</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/wind.jpg" alt="">
+                            <span class="aniex__name">The Wind Rise</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/from.png" alt="">
+                            <span class="aniex__name">Ngọn đồi hoa hồng anh</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/fireflies.jpg" alt="">
+                            <span class="aniex__name">Mộ đom đóm</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/how.jpg" alt="">
+                            <span class="aniex__name">Lâu đài di động của Howl</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/kikis.jpg" alt="">
+                            <span class="aniex__name">Dịch vụ giao hàng của Kiki</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/la.jpg" alt="">
+                            <span class="aniex__name">Lâu đài trên không - Laputa</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/mo.png" alt="">
+                            <span class="aniex__name">Công chúa sói Momonoke</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/ponyo.jpg" alt="">
+                            <span class="aniex__name">Cô bé người cá Ponyo</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/the.jpg" alt="">
+                            <span class="aniex__name">Loài mèo trả ơn</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/wh.jpg" alt="">
+                            <span class="aniex__name">Lời thì thầm của trái tim</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aniex__pre"><a>&#10094;</a></div>
+                <div class="aniex__next"><a>&#10095;</a></div>
+            </div>
+            <div  class="container extra">
+                <h3>Anime Gia Đình</h3>
+                <div class="aniex2">
+                    <ul class="aniex__list">
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/to.jpg" alt="">
+                            <span class="aniex__name">Hàng xóm tôi là Totoro</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/sa.jpg" alt="">
+                            <span class="aniex__name">Spirited Away - Vùng đất linh hồn</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/wind.jpg" alt="">
+                            <span class="aniex__name">The Wind Rise</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/from.png" alt="">
+                            <span class="aniex__name">Ngọn đồi hoa hồng anh</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/fireflies.jpg" alt="">
+                            <span class="aniex__name">Mộ đom đóm</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/how.jpg" alt="">
+                            <span class="aniex__name">Lâu đài di động của Howl</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/kikis.jpg" alt="">
+                            <span class="aniex__name">Dịch vụ giao hàng của Kiki</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/la.jpg" alt="">
+                            <span class="aniex__name">Lâu đài trên không - Laputa</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/mo.png" alt="">
+                            <span class="aniex__name">Công chúa sói Momonoke</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/ponyo.jpg" alt="">
+                            <span class="aniex__name">Cô bé người cá Ponyo</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/the.jpg" alt="">
+                            <span class="aniex__name">Loài mèo trả ơn</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/wh.jpg" alt="">
+                            <span class="aniex__name">Lời thì thầm của trái tim</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aniex__pre2"><a>&#10094;</a></div>
+                <div class="aniex__next2"><a>&#10095;</a></div>
+            </div>
+            <div  class="container extra">
+                <h3>Anime Shounen</h3>
+                <div class="aniex3">
+                    <ul class="aniex__list">
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/to.jpg" alt="">
+                            <span class="aniex__name">Hàng xóm tôi là Totoro</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/sa.jpg" alt="">
+                            <span class="aniex__name">Spirited Away - Vùng đất linh hồn</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/wind.jpg" alt="">
+                            <span class="aniex__name">The Wind Rise</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/from.png" alt="">
+                            <span class="aniex__name">Ngọn đồi hoa hồng anh</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/fireflies.jpg" alt="">
+                            <span class="aniex__name">Mộ đom đóm</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/how.jpg" alt="">
+                            <span class="aniex__name">Lâu đài di động của Howl</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/kikis.jpg" alt="">
+                            <span class="aniex__name">Dịch vụ giao hàng của Kiki</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/la.jpg" alt="">
+                            <span class="aniex__name">Lâu đài trên không - Laputa</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/mo.png" alt="">
+                            <span class="aniex__name">Công chúa sói Momonoke</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/ponyo.jpg" alt="">
+                            <span class="aniex__name">Cô bé người cá Ponyo</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/the.jpg" alt="">
+                            <span class="aniex__name">Loài mèo trả ơn</span>
+                        </li>
+                        <li class="aniex__item">
+                            <img class="aniex__img" src="./assets/img/anime_extra_section/wh.jpg" alt="">
+                            <span class="aniex__name">Lời thì thầm của trái tim</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aniex__pre3"><a>&#10094;</a></div>
+                <div class="aniex__next3"><a>&#10095;</a></div>
+            </div>
+
+            <footer>
+                <div class="footer">
+                    <div class="container">
+                        <h4 class="footer__name">Tana - nime </h4>
+                        <div class="footer__contact">
+                            <ul class="contact__list">
+                                <li class="contact__item"><a href=""><i class="fab fa-facebook"></i></a></li>
+                                <li class="contact__item"><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                                <li class="contact__item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                <li class="contact__item"><a href=""><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                            <div class="footer__more">
+                                <span>Contatc for Work: <a href="">nguyentan@gmail.com</a> </span>
+                            </div>
+                        </div>
+                        <h5 class="cpr"><i class="far fa-copyright"></i>2021 All Rights Reserved</h5>
+                        
+                    </div>
+ 
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/slider.js"></script>
+    <script src="./js/categorylist.js"></script>
+    <script src="./js/list_anime.js"></script>
+</body>
+</html>
